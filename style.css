@@ -5,9 +5,14 @@
         @apply bg-gray-900 text-gray-100 font-sans;
     } */
 
-  .gradient-text {
-            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+ .gradient-text {
+      background: linear-gradient(to right, #3b82f6, #a855f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  .skill-bar {
+            transition: width 1.5s ease-in-out;
         }
