@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
 /* Base */
 body {
     background-color: #111827;
@@ -102,7 +101,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #fff;
+    color: #05e741;
 }
 
 .menu-btn-container {
@@ -692,6 +691,7 @@ body {
     .footer-content {
         margin-bottom: 0;
     }
+    
 }
 
 @media (min-width: 768px) {
